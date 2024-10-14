@@ -14,12 +14,9 @@ title: Capas del sistema - APIs
 ---
 graph TD
 
-B[Capa de Controlador]
-    B -->C[Capa de Servicio]
-    C -->D[Capa de Dominio]
-    click B "./capa-controlador.md" "Ver detalles"
-    click C "./capa-servicio.md" "Ver detalles"
-    click D "./capa-dominio.md" "Ver detalles"
+    B[<a href="./capa-controlador.md">Capa de Controlador</a>]
+    B -->C[<a href="./capa-servicio.md">Capa de Servicio</a>]
+    C -->D[<a href="./capa-dto.md">Capa de Dominio</a>]
 
 ```
 
