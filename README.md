@@ -8,9 +8,13 @@ Incluye modelos UML, ejemplos de código y explicaciones detalladas sobre cómo 
 
 La documentación cubre cómo estructurar un backend para la gestión de diccionarios, palabras, significados, variantes morfológicas y otros elementos relacionados.
 
+Se incluyen diagramas UML, ejemplos de código y explicaciones detalladas sobre cómo implementar cada capa de la arquitectura.
+
 ### Casos de uso
 
 ![Casos de uso](https://github.com/IvanciniGT/appDiccionarios/blob/master/resources/casos-uso.png)
+
+Pulsa aquí para ver el detalle de los [Casos de uso](https://github.com/IvanciniGT/appDiccionarios/blob/master/casos-uso.md)
 
 ### Arquitectura en capas del backend
 
