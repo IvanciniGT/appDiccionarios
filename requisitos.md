@@ -80,7 +80,7 @@ El sistema debe permitir al editor eliminar un diccionario si no está en uso.
 - **Caso de uso asociado**: UC11
 
 #### RF07: Recuperar Diccionario(s)
-El sistema debe permitir al editor consultar o listar diccionarios en el sistema.
+El sistema debe permitir al editor consultar o listar diccionarios en el sistema, así como recuperar uno de ellos.
 - **Entrada**: Parámetros de búsqueda (opcional).
 - **Salida**: Diccionarios recuperados.
 - **Caso de uso asociado**: UC12
@@ -105,7 +105,7 @@ El sistema debe permitir al editor eliminar una palabra de un diccionario.
 - **Caso de uso asociado**: UC13
 
 #### RF11: Recuperar Palabra(s)
-El sistema debe permitir al editor consultar o listar palabras en el sistema.
+El sistema debe permitir al editor consultar o listar palabras en el sistema, así como recuperar una de ellas.
 - **Entrada**: Parámetros de búsqueda (opcional).
 - **Salida**: Palabras recuperadas.
 - **Caso de uso asociado**: UC14
@@ -130,7 +130,7 @@ El sistema debe permitir al editor eliminar un idioma siempre y cuando no tenga 
 - **Caso de uso asociado**: UC15
 
 #### RF15: Recuperar Idiomas
-El sistema debe permitir al editor consultar o listar idiomas en el sistema.
+El sistema debe permitir al editor consultar o listar idiomas en el sistema, así como recuperar uno de ellos.
 - **Entrada**: Parámetros de búsqueda (opcional).
 - **Salida**: Idiomas recuperados.
 - **Caso de uso asociado**: UC16
