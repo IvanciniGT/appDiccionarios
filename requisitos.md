@@ -154,8 +154,8 @@ El sistema debe ser escalable horizontalmente, permitiendo agregar más servidor
 
 ## 5. Relación entre Casos de Uso y Requisitos
 
-| Código del Caso de Uso | Descripción del Caso de Uso                      | Requisitos Relacionados            |
-|------------------------|-------------------------------------------------|------------------------------------|
+| Código del Caso de Uso | Descripción del Caso de Uso                     | Requisitos Relacionados           |
+|------------------------|-------------------------------------------------|-----------------------------------|
 | **UC01**               | Búsqueda exacta de palabras                     | RF01                              |
 | **UC02**               | Búsqueda por prefijo                            | RF02                              |
 | **UC03**               | Búsqueda por similitud                          | RF03                              |
@@ -235,7 +235,7 @@ Este material, este documento y su contenido están licenciados bajo la licencia
 
 ---
 
- <p align="center">
+<p align="center">
     <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/casos-uso.md">Casos de uso</a> |
     <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-controlador.md">Capa de Controlador</a> |
     <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-servicio.md">Capa de Negocio</a> |

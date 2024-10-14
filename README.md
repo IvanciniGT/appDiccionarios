@@ -29,6 +29,7 @@ graph TD
     B[<a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-controlador.md">Capa de Controlador</a>]
     B -->C[<a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-servicio.md">Capa de Negocio</a>]
     C -->D[<a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-dominio.md">Capa de Dominio</a>]
+    E[Módulo de <BR>Exportación/Importación] --> D
 
 ```
 
