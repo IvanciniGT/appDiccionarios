@@ -1,6 +1,18 @@
+
+<p align="center">
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/README.md">README</a> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-controlador.md">Capa de Controlador</a> |
+    <strong>Capa de Servicio</strong> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-dominio.md">Capa de Dominio</a>
+</p>
+
+---
+
 # Capa de Servicio de la Aplicación de Diccionarios
 
-Aquí está el índice de lo que tienes actualmente en el documento de la **Capa de Servicio**:
+Este es un ejemplo de backend utilizado en los videos y formaciones de **Iván Osuna Ayuste**, y está protegido bajo la licencia **Creative Commons BY-NC-SA** y las leyes de **Copyright ©**. [Ver más...](#copyright-y-licencia)
+
+© 2024 Iván Osuna Ayuste. Todos los derechos reservados.
 
 ## Índice
 
@@ -449,3 +461,26 @@ classDiagram
 
 #### 4.2.8 **IdiomaConDiccionariosException**
 - Se lanza cuando se intenta eliminar un idioma que aún tiene diccionarios asociados, evitando la eliminación de datos relacionados sin advertencia.
+
+
+
+---
+## Copyright y Licencia
+
+**© 2024 Iván Osuna Ayuste. Todos los derechos reservados**.
+
+Este material, este documento y su contenido están licenciados bajo la licencia [Licencia Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+![Licencia CC BY-NC-SA](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
+ **Queda expresamente prohibido el uso en formaciones comerciales** por terceros sin autorización expresa del autor.
+
+---
+
+
+<p align="center">
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/README.md">README</a> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-controlador.md">Capa de Controlador</a> |
+    <strong>Capa de Servicio</strong> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-dominio.md">Capa de Dominio</a>
+</p>

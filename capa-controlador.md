@@ -1,12 +1,20 @@
 
+<p align="center">
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/README.md">README</a> |
+    <strong>Capa de Controlador</strong> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-servicio.md">Capa de Negocio</a> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-dominio.md">Capa de Dominio</a>
+</p>
+
+---
 # Capa de Controlador de la Aplicación de Diccionarios
-# Índice
 
 Este es un ejemplo de backend utilizado en los videos y formaciones de **Iván Osuna Ayuste**, y está protegido bajo la licencia **Creative Commons BY-NC-SA** y las leyes de **Copyright ©**. [Ver más...](#copyright-y-licencia)
 
 © 2024 Iván Osuna Ayuste. Todos los derechos reservados.
 
----
+# Índice
+
 
 - [1. Introducción](#1-introducción)
   - [1.1 Conceptos Clave](#11-conceptos-clave)
@@ -398,3 +406,12 @@ Este material, este documento y su contenido están licenciados bajo la licencia
 ![Licencia CC BY-NC-SA](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
 
  **Queda expresamente prohibido el uso en formaciones comerciales** por terceros sin autorización expresa del autor.
+
+ ---
+
+<p align="center">
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/README.md">README</a> |
+    <strong>Capa de Controlador</strong> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-servicio.md">Capa de Negocio</a> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-dominio.md">Capa de Dominio</a>
+</p>

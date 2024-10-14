@@ -57,3 +57,11 @@ Para consultas o más información:
 
 - **Iván Osuna**
 - Email: [ivan.osuna.ayuste@gmail.com](mailto:ivan.osuna.ayuste@gmail.com)
+---
+
+<p align="center">
+    <strong>README.md</strong> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-controlador.md">Capa de Controlador</a> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-servicio.md">Capa de Negocio</a> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-dominio.md">Capa de Dominio</a>
+</p>

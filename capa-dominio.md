@@ -1,4 +1,17 @@
+<p align="center">
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/README.md">README</a> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-controlador.md">Capa de Controlador</a> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-servicio.md">Capa de Negocio</a> |
+    <strong>Capa de Dominio</strong>
+</p>
+
+---
+
 # Capa de Dominio de la Aplicación de Diccionarios
+
+Este es un ejemplo de backend utilizado en los videos y formaciones de **Iván Osuna Ayuste**, y está protegido bajo la licencia **Creative Commons BY-NC-SA** y las leyes de **Copyright ©**. [Ver más...](#copyright-y-licencia)
+
+© 2024 Iván Osuna Ayuste. Todos los derechos reservados.
 
 ## Índice
 
@@ -566,3 +579,23 @@ El Principio de Separation of Concerns establece que un sistema debe dividirse e
 - Separación entre la lógica de dominio y la lógica de negocio: La capa de dominio se enfoca exclusivamente en representar los datos y conceptos esenciales del diccionario, mientras que la lógica de ## 5. Aplicación de los Principios KISS, YAGNI, SOLID, SoC y DRY
 
 En el diseño y la implementación de la capa de dominio de esta aplicación de diccionarios, se han seguido principios clave de la ingeniería de software para garantizar que el sistema sea sencillo, flexible y fácil de mantener. A continuación, se explica cómo se aplican los principios **KISS**, **YAGNI**, **SOLID**, **SoC** y **DRY** en el contexto de la capa de dominio.
+
+
+---
+## Copyright y Licencia
+
+**© 2024 Iván Osuna Ayuste. Todos los derechos reservados**.
+
+Este material, este documento y su contenido están licenciados bajo la licencia [Licencia Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+![Licencia CC BY-NC-SA](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
+ **Queda expresamente prohibido el uso en formaciones comerciales** por terceros sin autorización expresa del autor.
+
+---
+<p align="center">
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/README.md">README</a> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-controlador.md">Capa de Controlador</a> |
+    <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-servicio.md">Capa de Negocio</a> |
+    <strong>Capa de Dominio</strong>
+</p>
