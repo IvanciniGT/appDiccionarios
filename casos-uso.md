@@ -11,37 +11,44 @@ Este documento describe los casos de uso principales para los dos tipos de usuar
 ## Actores:
 - **Usuario**: Puede buscar palabras dentro de los diccionarios mediante diferentes tipos de búsqueda.
 - **Editor de Diccionarios**: Además de buscar palabras, puede editar y gestionar los diccionarios, palabras e idiomas.
+- **Administrador**: Puede realizar tareas administrativas como exportar e importar diccionarios.
 
 ## Diagrama de Casos de Uso
 
-![Casos de uso](https://github.com/IvanciniGT/appDiccionarios/blob/master/resources/casos-uso.png)
+![Casos de uso](https://github.com/IvanciniGT/appDiccionarios/blob/master/resources/casos-uso.svg)
 
 ## Descripción de Casos de Uso
 
 ### **CU01: Buscar palabras**
 El **Usuario** puede buscar palabras dentro de los diccionarios con las siguientes opciones:
 
-- **Búsqueda exacta** (RF01): Buscar una palabra tal como está escrita.
-- **Búsqueda por prefijo** (RF02): Buscar palabras que comienzan con un conjunto específico de letras.
-- **Búsqueda por similitud** (RF03): Buscar palabras similares basadas en ciertas reglas (ej. Levenshtein, Jaccard, etc.).
+- **UC01: Búsqueda exacta de palabras** (RF01): Buscar una palabra tal como está escrita (case-insensitive, acentos-insensitive, plural-insensitive... y otros que se consideren en el futuro).
+- **UC02: Búsqueda por prefijo** (RF02): Buscar palabras que comienzan con un conjunto específico de letras (case-insensitive, acentos-insensitive, plural-insensitive... y otros que se consideren en el futuro).
+- **UC03: Búsqueda por similitud** (RF03): Buscar palabras similares basadas en ciertas reglas (ej. Levenshtein, etc.).
 
-### **CU02: Editar idiomas**
-El **Editor de Diccionarios** puede crear, modificar o eliminar idiomas del sistema, asegurando que los diccionarios estén siempre asociados a un idioma válido.
-- **Crear Idioma** (RF10)
-- **Modificar Idioma** (RF11)
-- **Eliminar Idioma** (RF12)
+### **CU02: Editar diccionarios**
+El **Editor de Diccionarios** puede gestionar los diccionarios con las siguientes acciones:
 
-### **CU03: Editar diccionarios**
-El **Editor de Diccionarios** tiene la capacidad de crear nuevos diccionarios, modificar los existentes o eliminar aquellos que ya no sean necesarios.
-- **Crear Diccionario** (RF04)
-- **Modificar Diccionario** (RF05)
-- **Eliminar Diccionario** (RF06)
+- **UC11: Gestionar diccionario** (RF04, RF05, RF06): Crear, modificar o eliminar diccionarios en el sistema.
+- **UC12: Recuperar diccionario(s)**: Consultar o listar diccionarios en el sistema.
 
-### **CU04: Editar palabras**
-El **Editor de Diccionarios** puede agregar, modificar o eliminar palabras dentro de un diccionario. Cada palabra puede tener variantes, significados y estar asociada a un idioma específico.
-- **Crear Palabra** (RF07)
-- **Modificar Palabra** (RF08)
-- **Eliminar Palabra** (RF09)
+### **CU03: Editar palabras**
+El **Editor de Diccionarios** puede gestionar las palabras con las siguientes acciones:
+
+- **UC13: Gestionar palabras** (RF07, RF08, RF09): Crear, modificar o eliminar palabras en el sistema.
+- **UC14: Recuperar palabra(s)**: Consultar o listar palabras en el sistema.
+
+### **CU04: Editar idiomas**
+El **Editor de Diccionarios** puede gestionar los idiomas con las siguientes acciones:
+
+- **UC15: Gestionar idioma** (RF10, RF11, RF12): Crear, modificar o eliminar idiomas en el sistema.
+- **UC16: Recuperar idiomas**: Consultar o listar idiomas en el sistema.
+
+### **CU05: Administrar diccionarios (Administrador)**
+El **Administrador** puede realizar acciones administrativas:
+
+- **UC21: Exportar diccionarios**: Exportar diccionarios del sistema.
+- **UC22: Importar diccionarios**: Importar diccionarios al sistema.
 
 ## Notas adicionales
 - El sistema debe garantizar que los editores no eliminen diccionarios o palabras que aún estén en uso.

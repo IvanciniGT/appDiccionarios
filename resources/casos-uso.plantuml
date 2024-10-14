@@ -1,0 +1,69 @@
+@startuml
+    left to right direction
+
+
+together {
+
+actor Usuario as User #f8fdff
+actor Administrador as Admin #f8fdff
+
+}
+actor EditorDeDiccionarios as Editor #eaf0f9
+
+
+rectangle "Sistema de Diccionarios" #C0C0C055 {
+
+
+  together {
+    package "Búsquedas" #88aaff22 {
+        usecase "UC01: Búsqueda exacta de palabras" as UC1 #83d3f6
+        usecase "UC02: Búsqueda por prefijo" as UC2 #83d3f6
+        usecase "UC03: Búsqueda por similitud" as UC3 #83d3f6
+    }
+    package "Administración" #C0B05522{
+        usecase "UC21: Exportar diccionarios" as UC21 #ffcb0c
+        usecase "UC22: Importar diccionarios" as UC22 #ffcb0c
+    }
+}
+together {
+    package "Edición" #ffaaaa22{
+    package "Gestión de Diccionarios" {
+        usecase "UC11: Gestionar diccionario" as UC11 #7a97ca
+        usecase "UC12: Recuperar diccionario(s)" as UC12 #7a97ca
+        
+    }
+    
+    package "Gestión de Palabras" {
+        usecase "UC13: Gestionar palabras" as UC13 #7a97ca
+        usecase "UC14: Recuperar palabra(s)" as UC14 #7a97ca
+    }
+    
+    package "Gestión de Idiomas" {
+        usecase "UC15: Gestionar idioma" as UC15 #ffcb0c
+        usecase "UC16: Recuperar idiomas" as UC16 #ffcb0c
+    }
+}
+}
+}
+
+UC21 ...d.> UC16
+UC21 ...d.> UC11
+
+Editor --u-> UC11
+Editor --u-> UC12
+
+Editor --u-> UC13
+Editor --u-> UC14 
+Editor --u-> UC15
+Editor --u-> UC16
+
+User ---> UC1
+User ---> UC2
+User ---> UC3
+Admin ---> UC21
+Admin ---> UC22
+
+
+
+
+@enduml
