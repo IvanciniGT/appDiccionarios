@@ -14,9 +14,9 @@ title: Capas del sistema - APIs
 ---
 graph TD
 
-    B[<a href="./capa-controlador.md">Capa de Controlador</a>]
-    B -->C[<a href="./capa-servicio.md">Capa de Servicio</a>]
-    C -->D[<a href="./capa-dto.md">Capa de Dominio</a>]
+    B[<a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-controlador.md">Capa de Controlador</a>]
+    B -->C[<a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-servicio.md">Capa de Negocio</a>]
+    C -->D[<a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-dominio.md">Capa de Dominio</a>]
 
 ```
 
