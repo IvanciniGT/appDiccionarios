@@ -15,7 +15,6 @@ Este es un ejemplo de backend utilizado en los videos y formaciones de **Iván O
 
 # Índice
 
-
 - [1. Introducción](#1-introducción)
   - [1.1 Conceptos Clave](#11-conceptos-clave)
 - [2. Definición de los DTOs](#2-definición-de-los-dtos)

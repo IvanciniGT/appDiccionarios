@@ -6,7 +6,39 @@ Incluye modelos UML, ejemplos de código y explicaciones detalladas sobre cómo 
 
 ## Descripción
 
-La documentación cubre cómo estructurar un backend para la gestión de diccionarios, palabras, significados, variantes morfológicas y otros elementos relacionados. Incluye:
+La documentación cubre cómo estructurar un backend para la gestión de diccionarios, palabras, significados, variantes morfológicas y otros elementos relacionados.
+
+### Casos de uso
+```mermaid
+---
+title: Diagrama de Casos de Uso - Aplicación de Diccionarios
+---
+
+actor Usuario as U
+actor "Editor de diccionarios" as E
+
+U --> (Buscar Palabras)
+U --> (Consultar Diccionario)
+U --> (Ver Significados)
+U --> (Ver Sinónimos)
+U --> (Ver Variantes)
+
+E --> (Añadir Palabra)
+E --> (Eliminar Palabra)
+E --> (Modificar Palabra)
+E --> (Añadir Significado)
+E --> (Eliminar Significado)
+E --> (Modificar Significado)
+E --> (Gestionar Variantes)
+E --> (Gestionar Idiomas)
+E --> (Gestionar Diccionarios)
+
+
+```
+
+### Arquitectura en capas del backend
+
+Para el backend se han definido las siguientes capas:
 
 ```mermaid
 ---
