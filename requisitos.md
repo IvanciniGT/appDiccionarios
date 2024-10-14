@@ -1,7 +1,3 @@
-Aquí tienes los requisitos ajustados a los nuevos casos de uso que mencionaste:
-
----
-
 # Requisitos - Aplicación de Diccionarios
 
 Estos son los requisitos de la aplicación de diccionarios, utilizada en los videos y formaciones de **Iván Osuna Ayuste**, y está protegido bajo la licencia **Creative Commons BY-NC-SA** y las leyes de **Copyright ©**. [Ver más...](#copyright-y-licencia)
@@ -245,7 +241,3 @@ Este material, este documento y su contenido están licenciados bajo la licencia
     <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-servicio.md">Capa de Negocio</a> |
     <a href="https://github.com/IvanciniGT/appDiccionarios/blob/master/capa-dominio.md">Capa de Dominio</a>
 </p>
-
----
-
-Este documento ahora refleja fielmente los casos de uso y requisitos ajustados según la nueva estructura definida.
