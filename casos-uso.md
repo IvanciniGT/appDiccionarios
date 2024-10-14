@@ -11,22 +11,7 @@ Este documento describe los casos de uso principales para los dos tipos de usuar
 
 ## Diagrama de Casos de Uso
 
-```plantuml
-@startuml
-actor Usuario as U
-actor Editor as E
-
-U --> (Buscar palabras)
-(Buscar palabras) --> (Búsqueda exacta)
-(Buscar palabras) --> (Búsqueda por prefijo)
-(Buscar palabras) --> (Búsqueda por similitud)
-
-E --> (Editar idiomas)
-E --> (Editar diccionarios)
-E --> (Editar palabras)
-
-@enduml
-```
+![Casos de uso](https://github.com/IvanciniGT/appDiccionarios/blob/master/resources/casos-uso.png)
 
 ## Descripción de Casos de Uso
 
