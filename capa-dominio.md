@@ -515,6 +515,8 @@ Aquí tienes un posible apartado que podrías incluir en tu documento para expli
 
 ## 5. Aplicación de los Principios KISS, YAGNI, SOLID, SOC y DRY
 
+![Principios de diseño de software](https://github.com/IvanciniGT/appDiccionarios/blob/master/resources/principios.webp)
+
 En el diseño y la implementación de la capa de dominio de esta aplicación de diccionarios, se han seguido principios clave de la ingeniería de software para garantizar que el sistema sea sencillo, flexible y fácil de mantener. A continuación, se explica cómo se aplican los principios **KISS**, **YAGNI**, **SOLID** y **DRY** en el contexto de la capa de dominio.
 
 ### 5.1 Principio KISS (Keep It Simple, Stupid)
